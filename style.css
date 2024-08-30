@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: #48cae4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#card{
+    background-color: white;
+    height: auto;
+    width: 22rem;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+#card .head {
+    display: flex;
+    margin: 0px;
+    padding: 3px;
+}
+#card .head .ri-more-2-fill{
+    margin-left: 14.5rem;
+}
+#card img{
+    height: auto;
+    width: 20rem;
+    padding: 2%;
+    margin: 5px;
+    object-fit: cover;
+    object-position: top;
+}
+#card .base{
+    display: flex;    
+}
+#card .left{
+    margin: 5px;
+}
+#card .left i{
+    margin: 5px;
+
+}
+#card .right{
+    margin: 3px;
+    padding: 3px;
+    margin-left: 63%;
+}
+
+#card .mid{
+    position: relative;
+    overflow: hidden;
+}
+
+#card .mid i{
+    position: absolute;
+    color: #fff;
+    font-size: 70px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    opacity: 0;
+    transition: transform ease 0.5s;
+}
